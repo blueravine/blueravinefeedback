@@ -1,0 +1,5 @@
+logs
+*.logs
+config.json
+Dockerfile
+node_modules
