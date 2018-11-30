@@ -23,6 +23,9 @@ exports.feedback_create = function (req, res, next) {
 
     let feedback = new Feedback({
         id: req.body.id,
+        mobile: req.body.mobile,
+        countrycode: req.body.countrycode,
+        name: req.body.name,
         appname: req.body.appname,
         appversion: req.body.appversion,
         feedback: req.body.feedback
